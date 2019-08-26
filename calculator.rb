@@ -1,5 +1,7 @@
-first_number = 21
-second_number = 35
+puts "please enter a number between 1 and 100"
+first_number = gets.strip
+puts "please enter a second number between 1 and 100"
+second_number = gets.strip
 
 sum = first_number + second_number
 difference = first_number - second_number
